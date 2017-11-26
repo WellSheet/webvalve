@@ -7,7 +7,7 @@ module WebValve
   autoload :FakeServiceConfig, 'webvalve/fake_service_config'
   autoload :Manager, 'webvalve/manager'
 
-  ENABLED_ENVS = %w(development test).freeze
+  ENABLED_ENVS = %w(development test stage demo).freeze
 
   class << self
     # @!method setup
